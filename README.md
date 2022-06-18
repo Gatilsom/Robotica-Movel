@@ -33,6 +33,7 @@
 #### Instalação e requisitos:
 
 1. ROS
+
        https://www.ros.org/
        
        http://wiki.ros.org/Installation/Ubuntu
@@ -43,10 +44,11 @@
 2. GAZEBO
 
        http://gazebosim.org
+       
        ```shell
        sudo apt install ros-noetic-desktop-full
        ```
   
 3. 
 
-$ sudo apt install ros-noetic-desktop-full
+
