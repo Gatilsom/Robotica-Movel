@@ -4,7 +4,7 @@
 
 #### Equipe:
 
-        ** *Agustinho Cássio Silva Netto**
+        *Agustinho Cássio Silva Netto**
         * Karen Barbosa Cesar
 
 #### Instruções:
@@ -30,6 +30,11 @@
     Garantir que o robô consegue passar por obstáculos não mapeados
       
 
+#### Instalação e requisitos:
 
+1. ROS
+       <https://www.ros.org/>
+2. GAZEBO
+       http://gazebosim.org
 
 $ sudo apt install ros-noetic-desktop-full
