@@ -30,7 +30,7 @@
     Garantir que o robô consegue passar por obstáculos não mapeados
       
 
-#### Instalação e requisitos:
+#### Instalação e pré-requisitos:
 
 1. ROS
 
@@ -65,7 +65,7 @@
 5. Teleoperação
 
    ```shell
-    apt install ros-noetic-teleop-tools
+    sudo apt install ros-noetic-teleop-tools
     ```
 
 6. Localização
@@ -79,4 +79,9 @@
     ```shell
     sudo apt install ros-noetic-navigation
     ```
+
+
+#### Execução:
+
+##### 1. Construção do pacote:
 
