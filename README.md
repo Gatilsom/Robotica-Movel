@@ -91,6 +91,11 @@
     cd ~/catkin_ws/src/trab02_pkg
     mkdir nodes launch maps worlds
     cd ~/catkin_ws && catkin_make
+    rospack profile
     ```
+2. ##### Construção do mundo através do Gazebo:
 
-
+    salvar o seguinte arquivo na pasta "worlds"
+    ```shell
+    my_house.world
+    ```
