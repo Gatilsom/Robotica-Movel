@@ -51,8 +51,10 @@
   
 3. Turtlebot
 
+    ```shell
     sudo apt install ros-noetic-turtlebot3 && 
     sudo apt install ros-noetic-turtlebot3-gazebo
+    ```
 
 
 
