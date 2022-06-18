@@ -4,8 +4,8 @@
 
 #### Equipe:
 
-        *Agustinho Cássio Silva Netto**
-        * Karen Barbosa Cesar
+        Agustinho Cássio Silva Netto
+        Karen Barbosa Cesar
 
 #### Instruções:
 
@@ -33,8 +33,20 @@
 #### Instalação e requisitos:
 
 1. ROS
-       <https://www.ros.org/>
+       https://www.ros.org/
+       
+       http://wiki.ros.org/Installation/Ubuntu
+       
+       http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+       
+       
 2. GAZEBO
+
        http://gazebosim.org
+       ```shell
+       sudo apt install ros-noetic-desktop-full
+       ```
+  
+3. 
 
 $ sudo apt install ros-noetic-desktop-full
