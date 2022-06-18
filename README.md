@@ -56,5 +56,27 @@
     sudo apt install ros-noetic-turtlebot3-gazebo
     ```
 
+4. Mapeamento
 
+    ```shell
+    sudo apt install ros-noetic-hector-slam
+    ```
+
+5. Teleoperação
+
+   ```shell
+    apt install ros-noetic-teleop-tools
+    ```
+
+6. Localização
+
+    ```shell
+    sudo apt install ros-noetic-amcl
+    ```
+
+7. Navegação
+
+    ```shell
+    sudo apt install ros-noetic-navigation
+    ```
 
