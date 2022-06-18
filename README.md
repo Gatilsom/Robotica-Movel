@@ -41,14 +41,19 @@
        http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
        
        
-2. GAZEBO
+2. Gazebo
 
        http://gazebosim.org
        
-       ```shell
        sudo apt install ros-noetic-desktop-full
-       ```
+       
+       
   
-3. 
+3. Turtlebot
+
+    ```shell
+    sudo apt install ros-noetic-turtlebot3 && 
+    sudo apt install ros-noetic-turtlebot3-gazebo
+    ```
 
 
