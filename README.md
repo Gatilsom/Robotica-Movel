@@ -1,6 +1,6 @@
 # Robotica-Movel
 
-# Título <Trabalho Sobre Robótica Móvel e Navegação Autônoma>
+# Trabalho Sobre Robótica Móvel e Navegação Autônoma
 
 
 Instruções:
