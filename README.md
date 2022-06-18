@@ -4,7 +4,7 @@
 
 #### Equipe:
 
-        * Agustinho Cássio Silva Netto
+        ** *Agustinho Cássio Silva Netto**
         * Karen Barbosa Cesar
 
 #### Instruções:
