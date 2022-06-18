@@ -85,7 +85,12 @@
 
 1. ##### Construção do pacote:
 
-   
-
+    ```shell
+    cd ~/catkin_ws/src
+    catkin_create_pkg trab02_pkg rospy std_msgs geometry_msgs
+    cd ~/catkin_ws/src/trab02_pkg
+    mkdir nodes launch maps worlds
+    cd ~/catkin_ws && catkin_make
+    ```
 
 
