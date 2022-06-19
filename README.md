@@ -101,7 +101,7 @@
     ```
 3. ##### Abertura de mundo e mapeamento:
     
-3.1 ###### Modo manual:
+    3.1 ###### Modo manual:
     terminal 1:
     ```shell
     cd ~/catkin_ws
@@ -131,8 +131,7 @@
     rospack profile
     ```
 
-3.2 ###### Modo automático:
-
+    3.2 ###### Modo automático:
     terminal 1:
     ```shell
     cd ~/catkin_ws
