@@ -157,8 +157,16 @@
     rospack profile
     ```
     
+4. ##### Localização:
     
-    
+    terminal 1:
+    ```shell
+    cd ~/catkin_ws
+    source devel/setup.bash
+    rospack profile
+    export TURTLEBOT3_MODEL=burger
+    roslaunch trab02_pkg turtlebot_house_simulator.launch
+    ```
     terminal 2:
     ```shell
     source devel/setup.bash
