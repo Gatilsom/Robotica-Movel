@@ -184,9 +184,23 @@ Instituição: CEFET-MG Campus Leopoldina
     ative a visualização do array de posições (PoseArray) no RViz
     
     
+  5. ##### Navegação:
     
-    
-    
+    terminal 1:
+    ```shell
+    cd ~/catkin_ws
+    source devel/setup.bash
+    rospack profile
+    export TURTLEBOT3_MODEL=burger
+    roslaunch trab02_pkg turtlebot_house_simulator.launch
+    ```
+    terminal 2:
+    ```shell
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch trab02_pkg navigation.launch
+    ```
+    ative as duas visualizações de trajetárias (Path) no RViz e posteriormente sete um destino (botão "2D Nav Goal")
     
     
     
