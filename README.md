@@ -121,7 +121,7 @@
     export TURTLEBOT3_MODEL=burger
     roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
     ```
-    após realizar todo o mapeamento
+    após realizar todo o mapeamento movendo o robô atraves do teclado:
     
     terminal 4:
     ```shell
