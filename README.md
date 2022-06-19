@@ -95,7 +95,7 @@
     ```
 2. ##### Construção do mundo através do Gazebo:
 
-    após modelagem salvar o seguinte arquivo na pasta "worlds"
+    após modelagem salve o seguinte arquivo na pasta "worlds"
     ```shell
     my_house.world
     ```
@@ -119,9 +119,22 @@
     ```shell
     source devel/setup.bash
     export TURTLEBOT3_MODEL=burger
-    roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
     ```
-    
+    após realizar todo o mapeamento
+    terminal 4:
+    ```shell
+    rosrun map_server map_saver -f ~/map1
+    ```
+    pesquise os pelo termo "map1" e movas os seguintes arquivos para a pasta "maps"
+    ```shell
+    map1.yaml
+    map1.pgm
+    ```
+    execute o seguinte comando para atualizar os pacotes
+    ```shell
+    rospack profile
+    ```
     
     
     
