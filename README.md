@@ -2,6 +2,10 @@
 
 ## Trabalho Sobre Robótica Móvel e Navegação Autônoma
 
+Disciplina: Tópicos Especiais em Automação: Robótica Aplicada
+Professor: Vinícius Schettino   <https://github.com/vbschettino/>
+Instituição: CEFET-MG Campus Leopoldina
+
 #### Equipe:
 
         Agustinho Cássio Silva Netto
