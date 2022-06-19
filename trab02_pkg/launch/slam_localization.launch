@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<!-- Start either SLAM or localization for Turtlebot3 -->
+
+<launch>
+    <arg name="slam_mode" default="false" />
+    <arg name="localization_mode" default="false" />
+    <arg name="teleop_mode" default="false" />
+
+    <!-- SLAM hector arguments -->
+    <arg name="scan_topic" default="scan" />
+
+    <!-- Start in either SLAM ... -->
+    <!-- 
+        When ready to save the map run this in the command line:
+        rosrun map_server map_saver -f `rospack find turtle_bot_trabalho1`/maps/guimaraes_house_world 
+    -->
+    <!-- Hector mapping -->
+    <group if="$(arg slam_mode)">
+        <node pkg="hector_mapping" type="hector_mapping" name="hector_mapping" output="screen">
+            <!-- Advertising config -->
+            <param name="scan_topic" value="$(arg scan_topic)" />
+        </node>
+    </group>
+
+    <!-- ... or localization mode -->
+    <group if="$(arg localization_mode)">
+        <node pkg="map_server" type="map_server" name="map_server" args="$(find trab02_pkg)/maps/map1.yaml" />
+
+        <node pkg="amcl" type="amcl" name="amcl">
+            <param name="transform_tolerance" value="0.2" />
+        </node>
+    </group>
+    
+	<!-- ... or teleop mode -->
+    <node if="$(arg teleop_mode)" pkg="turtlebot3_teleop" type="turtlebot3_teleop_key" name="turtlebot3_teleop_keyboard" output="screen">
+
+        <param name="frequency" value="10" />
+
+    </node>
+
+</launch>
