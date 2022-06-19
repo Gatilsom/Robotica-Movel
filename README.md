@@ -184,7 +184,7 @@ Instituição: CEFET-MG Campus Leopoldina
     ative a visualização do array de posições (PoseArray) no RViz
     
     
-  5. ##### Navegação:
+ 5. ##### Navegação:
     
     terminal 1:
     ```shell
