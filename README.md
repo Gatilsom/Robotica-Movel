@@ -101,6 +101,7 @@
     ```
 3. ##### Abertura de mundo e mapeamento:
     
+3.1 ###### Modo manual:
     terminal 1:
     ```shell
     cd ~/catkin_ws
@@ -130,6 +131,22 @@
     rospack profile
     ```
 
+3.2 ###### Modo automático:
+
+    terminal 1:
+    ```shell
+    cd ~/catkin_ws
+    source devel/setup.bash
+    rospack profile
+    export TURTLEBOT3_MODEL=burger
+    roslaunch trab02_pkg turtlebot_house_simulator.launch
+    ```
+    terminal 2:
+    ```shell
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+    ```
     
     
     
