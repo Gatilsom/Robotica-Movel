@@ -122,6 +122,7 @@
     roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
     ```
     após realizar todo o mapeamento
+    
     terminal 4:
     ```shell
     rosrun map_server map_saver -f ~/map1
