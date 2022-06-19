@@ -125,17 +125,11 @@
     
     terminal 4:
     ```shell
-    rosrun map_server map_saver -f ~/map1
-    ```
-    pesquise os pelo termo "map1" e movas os seguintes arquivos para a pasta "maps"
-    ```shell
-    map1.yaml
-    map1.pgm
-    ```
-    execute o seguinte comando para atualizar os pacotes
-    ```shell
+    source devel/setup.bash
+    rosrun map_server map_saver -f ~/catkin_ws/src/trab02_pkg/maps/map1
     rospack profile
     ```
+
     
     
     
