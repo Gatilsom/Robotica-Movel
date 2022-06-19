@@ -101,7 +101,8 @@
     ```
 3. ##### Abertura de mundo e mapeamento:
     
-    3.1 ###### Modo manual:
+    3.1 Método manual:
+    
     terminal 1:
     ```shell
     cd ~/catkin_ws
@@ -131,7 +132,8 @@
     rospack profile
     ```
 
-    3.2 ###### Modo automático:
+    3.2 Método alternativo:
+    
     terminal 1:
     ```shell
     cd ~/catkin_ws
@@ -144,7 +146,24 @@
     ```shell
     source devel/setup.bash
     export TURTLEBOT3_MODEL=burger
-    roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+    roslaunch trab02_pkg slam_localization.launch slam_mode:=true teleop_mode:=true
+    ```
+    após realizar todo o mapeamento movendo o robô atraves do teclado:
+    
+    terminal 3:
+    ```shell
+    source devel/setup.bash
+    rosrun map_server map_saver -f ~/catkin_ws/src/trab02_pkg/maps/map1
+    rospack profile
+    ```
+    
+    
+    
+    terminal 2:
+    ```shell
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch trab02_pkg slam_localization.launch localization_mode:=true teleop_mode:=true
     ```
     
     
