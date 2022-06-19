@@ -181,6 +181,7 @@ Instituição: CEFET-MG Campus Leopoldina
     export TURTLEBOT3_MODEL=burger
     roslaunch trab02_pkg slam_localization.launch localization_mode:=true teleop_mode:=true
     ```
+    ative a visualização do array de posições (PoseArray) no RViz
     
     
     
