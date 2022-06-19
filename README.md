@@ -95,7 +95,46 @@
     ```
 2. ##### Construção do mundo através do Gazebo:
 
-    salvar o seguinte arquivo na pasta "worlds"
+    após modelagem salvar o seguinte arquivo na pasta "worlds"
     ```shell
     my_house.world
     ```
+3. ##### Abertura de mundo e mapeamento:
+    
+    terminal 1:
+    ```shell
+    cd ~/catkin_ws
+    source devel/setup.bash
+    rospack profile
+    export TURTLEBOT3_MODEL=burger
+    roslaunch trab02_pkg turtlebot_house_simulator.launch
+    ```
+    terminal 2:
+    ```shell
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+    ```
+    terminal 3:
+    ```shell
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+    ```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
