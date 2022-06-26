@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find panda_moveit_config)/launch/demo.launch" />
+    
+    <node pkg="trab03_pkg" type="moveit_exemplo.py" name="moveit_exemplo" />
+	
+
+</launch>
