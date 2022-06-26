@@ -66,7 +66,8 @@ para repetir a movimentação faça:
 
 terminal_2:
 
+```shell
     cd ~/catkin_ws
     source devel/setup.bash
     rosrun trab03_pkg moveit_exemplo.py
-
+```
