@@ -19,7 +19,9 @@ Instituição: CEFET-MG Campus Leopoldina
 #### Instruções:
 
 Movimentar (fake) um braço robótico de um ponto a outro desviando de obstáculos fixos:
+
         - Usando a interface gráfica do RViz
+        
         - Usando as API’s em Python ou C++
 
 
@@ -52,16 +54,17 @@ Movimentar (fake) um braço robótico de um ponto a outro desviando de obstácul
     
 #### Execução:
 
-    terminal_1:
-    ```shell
-    cd ~/catkin_ws
-    source devel/setup.bash
-    roslaunch trab03_pkg moveit_exemplo.launch
-    ```
-    para repetir a movimentação faça:
-    terminal_2:
-    ```shell
-    cd ~/catkin_ws
-    source devel/setup.bash
-    rosrun trab03_pkg moveit_exemplo.py
-    ```
+   terminal_1:
+        ```shell
+        cd ~/catkin_ws
+        source devel/setup.bash
+        roslaunch trab03_pkg moveit_exemplo.launch
+        ```
+    
+   para repetir a movimentação faça:
+   terminal_2:
+        ```shell
+        cd ~/catkin_ws
+        source devel/setup.bash
+        rosrun trab03_pkg moveit_exemplo.py
+        ```
