@@ -54,7 +54,9 @@ Movimentar (fake) um braço robótico de um ponto a outro desviando de obstácul
     
 #### Execução:
 
+
     terminal_1:
+    
     ```shell
     cd ~/catkin_ws
     source devel/setup.bash
@@ -63,6 +65,7 @@ Movimentar (fake) um braço robótico de um ponto a outro desviando de obstácul
     
     para repetir a movimentação faça:
     terminal_2:
+    
     ```shell
     cd ~/catkin_ws
     source devel/setup.bash
