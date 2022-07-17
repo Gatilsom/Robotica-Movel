@@ -47,7 +47,8 @@ Movimentar (fake) um braço robótico de um ponto a outro desviando de obstácul
     rosdep update
     rosdep install moveit_tutorials --ignore-src
     rosdep install panda_moveit_config --ignore-src
-    cd ~/catkin_ws/catkin_make
+    cd ~/catkin_ws
+    catkin_make
     source devel/setup.bash
     rospack profile
     ```
