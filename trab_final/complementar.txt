@@ -1,0 +1,28 @@
+
+
+
+--> Abertura da garra: definida com uma largaura de 8 cm (entre dedos) e velocidade de 10 cm/s
+
+rostopic pub --once /franka_gripper/move/goal franka_gripper/MoveActionGoal "goal: { width: 0.08, speed: 0.1 }"
+
+
+
+
+
+--> Ação de agarrar: definida com uma largura de 3 cm (largura da peça) e força de 5 N (massa da peça de 50 g)
+
+rostopic pub --once /franka_gripper/grasp/goal \
+             franka_gripper/GraspActionGoal \
+             "goal: { width: 0.03, epsilon:{ inner: 0.005, outer: 0.005 }, speed: 0.1, force: 5.0}"
+             
+             
+
+--> Liberação da peça
+
+rostopic pub --once /franka_gripper/stop/goal franka_gripper/StopActionGoal {}
+
+
+
+
+
+
